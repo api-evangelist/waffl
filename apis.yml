@@ -1,7 +1,22 @@
 aid: waffl
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waffl.png
 name: Waffl
-description: Waffl is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Waffl is an early-stage website builder — a drag-and-drop platform for creating a
+  website and growing a small business from customizable templates. As of this profile the product
+  is pre-launch ("Coming Soon" at waffl.io) with no public API, developer portal, documentation,
+  SDKs, or other developer surface. Surfaced as a 500 Global portfolio lead and added to the API
+  Evangelist network as a stub; it carries no API surface to enrich yet.
 url: https://raw.githubusercontent.com/api-evangelist/waffl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +24,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-notes: 'Website corrected from postling.com (a defunct/unrelated marketing-finance
+  content blog, verified HTTP 200 but not this company) to waffl.io, the live site branded "Waffl"
+  (website builder, verified HTTP 200, "Coming Soon"). No API/developer surface found on probe.
+  The 200 for waffl.io is verified; 500 Global backing is inherited from the source stub and not
+  independently re-verified this pass.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Website Builder
+- No-Code
+- Website
+- Small Business
+- Pre-Launch
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://postling.com
+  url: https://waffl.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
