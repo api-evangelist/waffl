@@ -29,7 +29,7 @@ x-enrichment-notes: 'Website corrected from postling.com (a defunct/unrelated ma
   (website builder, verified HTTP 200, "Coming Soon"). No API/developer surface found on probe.
   The 200 for waffl.io is verified; 500 Global backing is inherited from the source stub and not
   independently re-verified this pass.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
